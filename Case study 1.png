@@ -1,0 +1,8 @@
+To address the release cycle requirement of Zendrix Softwares, the Git Flow model is an excellent match because it has been specifically designed to handle regular releases while also accommodating feature development and hotfixes.
+
+%%## Suggested Git Workflow for Zendrix Softwares:
+
+Master Branch: Represents the production code. Any code in master is deployable.
+Develop Branch: A branch where features destined for the next release are integrated. Represents the latest delivered development changes for the next release.
+Feature Branches: Branches created to develop new features for the upcoming or a distant future release. These branches only exist until the feature is merged into develop.
+Release Branches: Branches that are created to prepare a new production release. They allow for last-minute dotting of i’s and crossing t’s. Bug fixes, documentation generation, and other release-oriented tasks should be done here
